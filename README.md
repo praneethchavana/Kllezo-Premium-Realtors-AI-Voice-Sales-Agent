@@ -145,6 +145,40 @@ Run backend:
 
 npm run dev
 
+
+
+
+
+
+
+
+:
+
+🔊 How the Voice Agent Works
+1️⃣ User speaks
+
+Microphone → AssemblyAI → text transcription
+
+2️⃣ AI responds
+
+Transcribed text → OpenRouter (gpt-oss-20b free model)
+
+3️⃣ Voice output
+
+Agent’s text → Murf Gen2 TTS → playable audio
+
+4️⃣ Conversation UI
+
+Chat bubbles + audio playback simulate a real phone call.
+
+🧪 Local Testing Checklist
+Feature	Status
+ASR (AssemblyAI)	✔️ Working
+LLM (OpenRouter)	✔️ Working
+Murf TTS	✔️ gen2 supported
+Audio playback	✔️ Browser tested
+Secure .env	✔️ No keys exposed
+
 3. Frontend Setup
 cd frontend
 npm install
