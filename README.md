@@ -98,7 +98,7 @@ OpenRouter LLM
 
 📦 Setup Instructions
 1. Clone the repo
-git clone https://github.com/yourusername/kllezo-premium-realtors-voice-agent.git
+git clone (https://github.com/praneethchavana/Kllezo-Premium-Realtors-AI-Voice-Sales-Agent)
 cd kllezo-premium-realtors-voice-agent
 
 2. Backend Setup
